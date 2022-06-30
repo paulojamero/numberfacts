@@ -35,6 +35,9 @@ function getFactFetch(){
                 fact.style.display = 'block';
                 factText.innerText = data;
             }
+            if(number == 69){
+                factText.innerText = 'bad yan';
+            }
         })
         .catch(err => console.log(err));
 }
